@@ -5,7 +5,9 @@
     <title>footer</title>
     </head>
     <body>
+
         <div class="footer-link">
+            <a href="">Sign In</a>
             <a href="">Log In</a>
             <a href="">Messenger</a>
             <a href="">Facebook Lite</a>
@@ -38,9 +40,10 @@
             
         </div>
         <div class="facebbok-2020">
-            <a href="">Facebook 
+            <a href="">Facebook © 2020</a> 
 
         </div>
+        
     </body>
 
 

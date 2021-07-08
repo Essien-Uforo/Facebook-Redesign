@@ -68,7 +68,7 @@ padding: 20px;
 .main-right-password{
 
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .main-right-password input[type=password]{
 
@@ -136,6 +136,36 @@ padding: 20px;
     color: white;
     cursor: pointer;
 }
+.footer{
+
+    background-color: white;
+}
+.footer-link{
+    
+    width: 980px;
+    margin: auto;
+    padding: 20px;   
+}
+.footer-link a{
+
+    text-decoration: none;
+    padding: 2px;
+    color: #8a8d91;
+
+}
+.facebook-2020{
+    
+    width: 980px;
+    margin: auto;
+    padding: 20px;   
+}
+.facebook-2020 a{
+
+    text-decoration: none;
+    padding: 2px;
+    color: #8a8d91;
+    
+}
 .modal{
 
     width: 100%;
@@ -146,7 +176,92 @@ padding: 20px;
     bottom: 0;
     right: 0;
     background-color: rgba(250,250,250,0.8);
+    display: none;
+}
+.modal-signup{
+    
+    width: 35%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px
+    rgba(0,0,0,0.1), 0 8px 16px
+    rgba(0,0,0,0.1);
+    margin-top: 100px;
+    position: relative;
+}
+.modal-close{
 
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+} 
+.modal-signup-heading{
+
+    width: 100%;
+    margin-top: 5px;
+
+}
+.modal-signup-heading .modal-signup-name{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+.modal-signup-heading .modal-signup-child-name{
+
+    font-size: 17px;
+}
+.modal-signup-name{
+
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.modal-signup-name input[type=text]{
+
+    width: 48%;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.modal-signup-email{
+
+    width: 100%;
+    margin-top: 20px;
+}
+.modal-signup-email input[type=email]{
+
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.modal-signup-password{
+
+    width: 100%;
+    margin-top: 20px;
+}
+.modal-signup-password input[type=password]{
+
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
 }
 
 
